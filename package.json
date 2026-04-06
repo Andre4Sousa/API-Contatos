@@ -12,15 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^7.6.0",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
     "express": "^5.2.1",
     "mysql": "^2.18.1",
     "type": "^2.7.3"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2",
     "nodemon": "^3.1.11",
-    "prisma": "^7.5.0",
+    "prisma": "^7.6.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2"
   }
